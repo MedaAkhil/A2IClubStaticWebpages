@@ -67,15 +67,10 @@
 }
 
 body {
-    /* height: 100vh; */
     background-color: #000;
-    /* background-image: url(assets/89833627\\(1\).jpeg); */
     background-repeat: no-repeat;
     background-size: 350vh 45%;
     background-position: top center;
-    /* background-size:cover; */
-    /* background-size: cover; */
-    /* background-position: center;      */
 }
 
 li {
@@ -122,7 +117,7 @@ section#hero {
     font-size: 3vh;
     align-self: center;
     box-sizing: border-box;
-    margin: 5% 0 15% 0;
+    margin: 0;
     text-align: left;
     width: 80%;
 }
@@ -140,7 +135,7 @@ section#hero {
     color: #088178;
     font-size: 3vh;
     box-sizing: border-box;
-    margin: 10% 0 0 4%;
+    margin: 4%;
     text-align: left;
     width: 90%;
 }
@@ -241,6 +236,7 @@ h1 {
         margin-top: 10%;
         padding: 2%;
     }
+
     .child p {
         margin: 10px;
     }
