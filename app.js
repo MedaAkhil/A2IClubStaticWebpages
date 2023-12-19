@@ -14,6 +14,30 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'home.html'));
 });
 
+app.get('/gallery', (req, res) => {
+  res.sendFile(path.join(__dirname, 'gallery.html'));
+});
+
+app.get('/events', (req, res) => {
+  res.sendFile(path.join(__dirname, 'events.html'));
+});
+
+app.get('/team', (req, res) => {
+  res.sendFile(path.join(__dirname, 'team.html'));
+});
+
+app.get('/contact', (req, res) => {
+  res.sendFile(path.join(__dirname, 'contact.html'));
+});
+
+app.get('/eventswebscraping', (req, res) => {
+  res.sendFile(path.join(__dirname, 'eventswebscraping.html'));
+});
+
+app.get('/openaiworkshopreport', (req, res) => {
+  res.sendFile(path.join(__dirname, 'openaiworkshopreport.html'));
+});
+
 // About route
 app.get('/about', (req, res) => {
   res.send('This is the about page.');
